@@ -1,13 +1,38 @@
-import React, { useState } from "react";
-import { InputText } from "primereact/inputtext";
-import "primereact/resources/themes/lara-light-cyan/theme.css";
+import React from 'react';
 
-export default function FinzlyInput() {
-  const [value, setValue] = useState("");
+const HomePage = () => {
+ 
 
   return (
-    <div className="card flex justify-content-center">
-      <InputText value={value} onChange={(e) => setValue(e.target.value)} />
+    <div
+      style={{
+        backgroundColor:  '#333',
+        color:  '#fff' ,
+        height: '100vh',
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
+        transition: 'all 0.3s ease',
+      }}
+    >
+      <h1>Welcome to My React Page</h1>
+      <p>This is a simple example of a React component with a toggle theme feature.</p>
+      <button
+        onClick={()=>console.log("sdksfjdks")}
+        style={{
+          padding: '10px 20px',
+          fontSize: '16px',
+          cursor: 'pointer',
+          backgroundColor: '#555',
+          border: 'none',
+          borderRadius: '5px',
+        }}
+      >
+        Toggle 'Light'  Mode
+      </button>
     </div>
   );
-}
+};
+
+export default HomePage;

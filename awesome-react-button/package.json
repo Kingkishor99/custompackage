@@ -1,5 +1,5 @@
 {
-  "name": "react-button",
+  "name": "mybutton",
   "version": "1.0.0",
   "description": "A very simple, highly customisable react button Component library.",
   "main": "dist/index.js",
