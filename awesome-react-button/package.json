@@ -1,6 +1,6 @@
 {
   "name": "myrbutton",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "A very simple, highly customisable react button Component library.",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
