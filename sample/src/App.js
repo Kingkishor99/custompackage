@@ -1,12 +1,10 @@
 import "./App.css";
 import "primereact/resources/themes/lara-light-cyan/theme.css";
-import FinzlyTab from "./components/FinzlyTab";
-import FinzlyInputWlable from "./components/FinzlyInputWlable";
 import "primeicons/primeicons.css";
 import React from "react";
-import FinzlyTable from "./components/FinzlyTable";
-// import { FinzlyInput} from "myrbutton";
-// import  {FinzlyTable}  from "myrbutton";
+import { FinzlyTab } from "myrbutton";
+import { FinzlyInputWlable } from "myrbutton";
+import { FinzlyTable } from "myrbutton";
 const a = [
   { label: "Notification", icon: "pi pi-flag", url: "/tabmenu" },
   {
