@@ -1,6 +1,6 @@
 {
-  "name": "react-button",
-  "version": "1.0.0",
+  "name": "myrbutton",
+  "version": "1.0.5",
   "description": "A very simple, highly customisable react button Component library.",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -11,7 +11,7 @@
   },
   "author": {
     "name": "Kishor",
-    "url": "https://github.com/imarjunshrma"
+    "url": "https://github.com/kingkishor99"
   },
   "license": "MIT",
   "devDependencies": {
@@ -42,8 +42,8 @@
     "styled-jsx": "^5.1.6"
   },
   "peerDependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "dependencies": {
     "primeicons": "^7.0.0",

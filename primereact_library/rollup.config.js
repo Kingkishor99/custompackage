@@ -46,8 +46,8 @@ export default [
             // ),
             babel({
 
-                // presets: ["@babel/preset-env", "@babel/preset-react"],
-                // extensions: ['.js', '.jsx']
+                presets: ["@babel/preset-env", "@babel/preset-react"],
+                extensions: ['.js', '.jsx'],
                 configFile: './.babelrc',
                 babelHelpers: "bundled",
                 exclude: 'node_modules/**',
